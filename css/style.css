@@ -230,6 +230,16 @@ a {
   width: calc((100% – 72px) / 4);
 }
 
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--color-cloud);
+  margin-bottom: 8px;
+}
+
 .features-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
