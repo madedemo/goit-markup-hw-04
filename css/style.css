@@ -116,7 +116,7 @@ a {
 }
 
 .header-link.active {
-  background: var(--OCEAN, #404bbf);
+  color: #404bbf;
 }
 
 .header-link.active::after {
