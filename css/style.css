@@ -236,7 +236,8 @@ a {
   justify-content: center;
   height: 112px;
   border-radius: 4px;
-  background-color: var(--color-cloud);
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
   margin-bottom: 8px;
 }
 
