@@ -356,7 +356,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-title {
@@ -372,6 +372,7 @@ a {
 
 .projects-item {
   width: calc((100% - 48px) / 3);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-item:hover {
