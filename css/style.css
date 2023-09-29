@@ -515,7 +515,7 @@ a {
   fill: #f4f4fd;
 }
 
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
