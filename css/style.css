@@ -115,11 +115,11 @@ a {
   color: #404bbf;
 }
 
-.header-link .current {
+.header-link.current {
   background: var(--OCEAN, #404bbf);
 }
 
-.header-link .current::after {
+.header-link.current::after {
   content: "";
   display: block;
   width: 100%;
