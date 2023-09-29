@@ -90,7 +90,7 @@ a {
 }
 
 .header-logo-black {
-  color: var(--navyblue, #2e2f42);
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 
 .header-nav-list {
@@ -99,7 +99,7 @@ a {
 }
 
 .header-link {
-  color: var(--navyblue, #2e2f42);
+  color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -112,14 +112,14 @@ a {
 
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--OCEAN, #404bbf);
 }
 
-.header-link.current {
+.header-link.active {
   background: var(--OCEAN, #404bbf);
 }
 
-.header-link.current::after {
+.header-link.active::after {
   content: "";
   display: block;
   width: 100%;
@@ -207,6 +207,7 @@ a {
   padding: 16px 32px;
   gap: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
