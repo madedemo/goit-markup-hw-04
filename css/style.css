@@ -333,6 +333,7 @@ a {
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 8px;
 }
 
 .team-link-icon:hover,
@@ -341,7 +342,7 @@ a {
 }
 
 .team-icon {
-  fill: var(--color-cloud);
+  fill: #f4f4fd;
 }
 
 /* PORTFOLIO forth section====================================================*/
@@ -370,6 +371,16 @@ a {
 
 .projects-item {
   width: calc((100% - 48px) / 3);
+}
+
+.projects-text-overlay {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .projects-profile {
