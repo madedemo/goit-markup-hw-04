@@ -373,6 +373,10 @@ a {
   width: calc((100% - 48px) / 3);
 }
 
+.projects-item:hover .projects-text-overlay {
+  transform: translateY(0);
+}
+
 .projects-wrapper-overlay {
   position: relative;
   overflow: hidden;
